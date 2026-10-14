@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff1f4">
+  <meta name="description" content="A little birthday surprise made with love for Sugerboo.">
+  <title>For My Sugerboo ♡</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="floating-hearts" aria-hidden="true">♡　♥　♡　♥　♡</div>
+
+  <header class="topbar">
+    <span>MADE WITH LOVE</span>
+    <span>♡ 17 OCTOBER ♡</span>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="orb">♡</div>
+      <p class="eyebrow">TO THE GIRL WHO MAKES MY WORLD SOFTER</p>
+      <h1>Happy Birthday,<br><span> My Sugerboo</span></h1>
+      <p class="intro">
+        Three years of us, countless little moments,
+        and one heart that still chooses you.
+      </p>
+      <button class="button" id="startButton">Open your surprise ♡</button>
+      <p class="tiny-note">A little Gift, made just for you.</p>
+    </section>
+
+    <section class="letter-section" id="letter">
+      <p class="eyebrow">A LETTER FROM MY HEART</p>
+      <h2>Something I want you to know</h2>
+
+      <button class="envelope" id="envelope" aria-label="Open your love letter" aria-expanded="false">
+        <span class="envelope-heart">♥</span>
+        <span class="envelope-label">Tap to open your letter</span>
+      </button>
+
+      <article class="letter-paper" id="letterPaper" hidden>
+        <p>My Love My Everything My Sugerboo,</p>
+        <p>
+          Happy birthday, my love. If I could give you one thing today,
+          it would be the chance to see yourself through my eyes.
+          Maybe then you would understand how special you are to me.
+        </p>
+        <p>
+          Three years together means so much to me. I am grateful for
+          the time we've shared, for the smiles, the lessons, and all
+          the little moments that have become part of our story.
+        </p>
+        <p>
+          I don't need our story to be perfect. I just hope we keep
+          choosing kindness, understanding each other, and finding
+          reasons to smile together. You deserve love that feels safe,
+          gentle, and real.
+        </p>
+        <p>
+          Today is your day, but honestly, I'm grateful that the world
+          brought you into mine. I hope this new year of your life gives
+          you happiness, courage, peace, and all the beautiful things
+          your heart has been wishing for.
+        </p>
+        <p>Happy birthday, Sugerboo. You mean so much to me. ♡</p>
+        <p class="signature">Always with love,<br>Your CupCake♡</p>
+      </article>
+    </section>
+
+    
+<section class="reasons" id="reasons">
+  <h2>Little Things I Love About You ♡</h2>
+  <p class="notes-intro">
+    A few little reasons why you're so special to me.
+  </p>
+
+  <button class="button notes-reveal-button" id="notesRevealButton">
+    Click for Some Lovable Notes ♡
+  </button>
+
+  <div class="note-grid" id="notesContainer" hidden>
+    <button class="note" data-message="Your smile makes even my hardest days beautiful.">
+      <span>♡</span> Your Smile
+    </button>
+
+    <button class="note" data-message="You make my world feel warmer just by being in it.">
+      <span>🌷</span> Your Heart
+    </button>
+
+    <button class="note" data-message="Even ordinary moments become special when I'm with you.">
+      <span>✨</span> Our Little Moments
+    </button>
+
+    <button class="note" data-message="After three beautiful years, I'd still choose you all over again.">
+      <span>💌</span> Always You
+    </button>
+  </div>
+
+  <p class="note-message" id="noteMessage" aria-live="polite"></p>
+</section>
+
+
+    <section class="finale">
+      <p class="eyebrow">ONE LAST LITTLE SURPRISE</p>
+      <h2>My wish for you</h2>
+      <p>
+        May this year bring you peace on difficult days, laughter on
+        ordinary ones, and new reasons to be proud of yourself.
+        Keep growing into the person you want to become.
+      </p>
+      <button class="button" id="secretButton">One last thing… 🔐</button>
+      <div class="secret-reveal" id="secretReveal" hidden aria-live="polite">
+        <div class="secret-heart">♡</div>
+        <p>
+          If I could choose one little place to return to again and again,
+          it would be any moment that has you in it. Thank you for being
+          part of my last three years. I hope we keep making beautiful
+          memories, one ordinary day at a time.
+        </p>
+        <p class="signature">Happy Birthday, Ruchika. ❤️</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>MADE FOR SUGERBOO, WITH ALL MY HEART ♡</footer>
+
+  <div class="music-player">
+    <button id="musicButton" aria-pressed="false">♫ Play romantic music</button>
+    <span id="musicStatus">A little melody for you</span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
